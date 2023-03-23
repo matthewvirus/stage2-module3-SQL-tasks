@@ -2,7 +2,7 @@ CREATE TABLE Student (
     id bigint primary key,
     name varchar(64),
     birthday date,
-    `group` int);
+    groupnumber int);
 
 CREATE TABLE Subject (
     id bigint primary key,
